@@ -4,7 +4,7 @@
   padding: 5px;
   margin: 2px;
   float: left;
-  background-color: bisque;
+  background-color: transparent;
 }
   .category-box {
     padding: 10px;
@@ -12,14 +12,16 @@
     width: 60px;
     height: auto;
     float: left;
-    background-color: bisque;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
+    align-items: start;
   }
   .category-header {
     /* Keep the existing styles */
     display: flex;
     justify-content: flex-end;
+    
   }
   .category-options{
     display: none;
@@ -30,9 +32,8 @@
   }
 
   .search {
-    border: 1px solid #d30f0f;
+    border: 1px solid red;
     border-radius: 50px;
-    padding: 10px;
     margin: 18px 0; /* Adjust the margins as needed */
     width: calc(70% - 75px);
     height: 40px;
@@ -45,24 +46,28 @@
   .search input[type="search"] {
     flex-grow: 1;
     border: none;
-    background-color: bisque;
+    background-color: transparent;
     border-radius:50px ;
-    
+    width: 670.780px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
   }
   
   .search button {
     margin-left: 10px;
   border: none;
-  background-color: bisque;
+  background-color: transparent;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   }
   .search button:hover {
     /* Customize the button styles on hover */
-    background-color: bisque;
+    background-color: transparent;
     color: red;
     font-weight: bolder;
+    transform: scale(1.2)
   }
   
   .photos{
@@ -85,7 +90,7 @@
   width: auto;
   height: auto;
   float:left ;
-  background-color: bisque;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
 }
@@ -104,11 +109,11 @@
   background-color: bisque;
   }
   .top a{
-    background-color: bisque;
+    background-color: transparent;
     color: black;
   }
   .top a:hover{
-    background-color: bisque;
+    background-color:transparent;
     color: red;
   }
   .photos{
@@ -117,4 +122,19 @@
   .photos a {
    margin-left: 15px;
 }
-
+.maintenance{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  cursor: progress;
+}
+.maintenance h1{
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}  
+.maintenance h1:hover {
+  color: red;
+  font-weight: bolder;
+  transform: scale(1.2)
+}
