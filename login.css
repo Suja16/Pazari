@@ -1,4 +1,5 @@
 #welcome{
+    display: block;
     width: 40%;
     margin: 4px auto;
 }
@@ -12,6 +13,18 @@
     justify-content: center;
     
 }
-#log{
+#log a{
+    
+    text-decoration: none;
+    font-size: 15px;
+}
+#sign a{
+    
+    text-decoration: none;
+    font-size: 15px;
+}
+button{
     margin: 15px;
+    height: 50px;
+    width: 300px;
 }
