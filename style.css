@@ -18,7 +18,6 @@
     align-items: start;
   }
   .category-header {
-    /* Keep the existing styles */
     display: flex;
     justify-content: flex-end;
     
@@ -34,13 +33,13 @@
   .search {
     border: 1px solid red;
     border-radius: 50px;
-    margin: 18px 0; /* Adjust the margins as needed */
+    margin: 18px 0; 
     width: calc(70% - 75px);
     height: 40px;
     float: left;
     box-sizing: border-box;
-    display: flex; /* Enable flexbox layout for the search bar */
-    align-items: center; /* Center the elements vertically */
+    display: flex; 
+    align-items: center;
   }
   
   .search input[type="search"] {
@@ -48,7 +47,7 @@
     border: none;
     background-color: transparent;
     border-radius:50px ;
-    width: 670.780px;
+    width: 100%;
     height: 40px;
     padding: 10px;
     outline: none;
@@ -70,23 +69,39 @@
     transform: scale(1.2)
   }
   
-  .photos{
-    margin-top: 15px;
+  @media (max-width: 767px) {
+    .photos {
+      margin-top: 15px;
+      display: block;
+    }
+  
+    .photos a {
+      margin: 10px 0; 
+    }
   }
-  .photos a {
-    margin : 15px; /* Adjust the value as needed */
-}
+  
+  @media (min-width: 768px) {
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin: 15px;
+    }
+  
+    .photos a {
+      margin: 10px;
+      max-height: calc(24vw - 30px);
+
+    }
+  }
+  
 .list{
   list-style-type: none;
   text-align: right;
   margin-top: 0; 
   padding-inline-start: 0; 
 }
-.list li{
- 
-}
 .settings{
-  margin: -15px 0 0 0;
   width: auto;
   height: auto;
   float:left ;
@@ -111,17 +126,13 @@
   .top a{
     background-color: transparent;
     color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
   }
   .top a:hover{
     background-color:transparent;
     color: red;
   }
-  .photos{
-    margin: 28px;
-  }
-  .photos a {
-   margin-left: 15px;
-}
 .maintenance{
   align-items: center;
   text-align: center;
