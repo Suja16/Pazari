@@ -85,11 +85,13 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
-      margin-top: 15px;
+      margin: 15px;
     }
   
     .photos a {
-      margin: 15px; 
+      margin: 10px;
+      max-height: calc(24vw - 30px);
+
     }
   }
   
@@ -124,6 +126,8 @@
   .top a{
     background-color: transparent;
     color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
   }
   .top a:hover{
     background-color:transparent;
