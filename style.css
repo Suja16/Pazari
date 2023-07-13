@@ -48,7 +48,7 @@
     border: none;
     background-color: transparent;
     border-radius:50px ;
-    width: 670.780px;
+    width: 100%;
     height: 40px;
     padding: 10px;
     outline: none;
@@ -86,7 +86,6 @@
  
 }
 .settings{
-  margin: -15px 0 0 0;
   width: auto;
   height: auto;
   float:left ;
@@ -116,8 +115,11 @@
     background-color:transparent;
     color: red;
   }
-  .photos{
-    margin: 28px;
+  .photos {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
   .photos a {
    margin-left: 15px;
