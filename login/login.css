@@ -1,11 +1,11 @@
- /* .login{
+.login{
      width: 20%; 
     margin:15px auto;
 }  
 body{
     margin: 0;
     padding: 0;
-}  */
+} 
 #welcome{
     display: block;
     width: 40%;
