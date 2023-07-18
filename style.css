@@ -79,12 +79,12 @@
   @media (max-width: 767px) {
     .photos {
       margin-top: 15px;
-      display: block;
+      display: inline-block;
       width: fit-content;
     }
   
     .photos a {
-      margin: 10px 0; 
+      margin: 10px
     }
   }
   
@@ -96,11 +96,12 @@
       margin: 15px;
       width: fit-content;
       height: fit-content;
-    
+      text-align: center;
     }
   
     .photos a {
       margin: 10px;
+      text-align: center;
     }
   }
   
@@ -111,12 +112,10 @@
   padding-inline-start: 0; 
 }
 .settings{
-  width: auto;
-  height: auto;
   float:left ;
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  
 }
 .settings-options{
   display: none;
