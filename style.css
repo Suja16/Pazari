@@ -6,42 +6,10 @@
   float: left;
   background-color: transparent;
 }
-  .category-box {
-    padding: 10px;
-    margin: 18px 10px 0 0;
-    width: 60px;
-    height: auto;
-    float: left;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .category-header {
-    display: flex;
-    justify-content: flex-end;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    align-items: center;
-    text-align: center;
-  }
-  .category-header:hover{
-    background-color: transparent;
-    color: red;
-  }
-  
-  .category-options{
-    display: none;
-    text-align: left;
-  }
-  .category-box:hover .category-options{
-    display: block;
-  }
-
   .search {
-    border: 1px solid red;
     border-radius: 50px;
     margin: 18px 0; 
-    width: calc(70% - 75px);
+    width: 50%;
     height: 40px;
     float: left;
     box-sizing: border-box;
@@ -52,7 +20,7 @@
   .search input[type="search"] {
     flex-grow: 1;
     border: none;
-    background-color: transparent;
+    background-color: white;
     border-radius:50px ;
     width: 100%;
     height: 40px;
@@ -60,21 +28,6 @@
     outline: none;
   }
   
-  .search button {
-    margin-left: 10px;
-  border: none;
-  background-color: transparent;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  }
-  .search button:hover {
-    /* Customize the button styles on hover */
-    background-color: transparent;
-    color: red;
-    font-weight: bolder;
-    transform: scale(1.2)
-  }
   
   @media (max-width: 767px) {
     .photos {
@@ -82,7 +35,6 @@
       display: inline-block;
       width: fit-content;
     }
-  
     .photos a {
       margin: 10px
     }
@@ -94,34 +46,21 @@
       flex-wrap: wrap;
       justify-content: flex-start;
       margin: 15px;
+      padding-left: 100px;
       width: fit-content;
       height: fit-content;
       text-align: center;
+      font-size: large;
     }
-  
     .photos a {
-      margin: 10px;
+      margin: 10px 20px;
       text-align: center;
     }
   }
-  
-.list{
-  list-style-type: none;
-  text-align: right;
-  margin-top: 0; 
-  padding-inline-start: 0; 
-}
 .settings{
   float:right ;
   background-color: transparent;
   margin: auto;
-  
-}
-.settings-options{
-  display: none;
-}
-.settings:hover .settings-options{
-  display: block;
 }
 
 .top{
@@ -129,7 +68,12 @@
   margin-left: -5;
   border: 1px solid black;
   overflow: auto;
-  background-color: bisque;
+  width: 1544.227px;
+  height: 6005.775px;
+  transform: rotate(-0.186deg);
+  flex-shrink: 0;
+  fill: rgba(6, 6, 6, 0.12);
+  backdrop-filter: blur(175px);
   }
   .top a{
     background-color: transparent;
@@ -141,19 +85,71 @@
     background-color:transparent;
     color: red;
   }
-.maintenance{
-  align-items: center;
+.boy{
+  width: 1354px;
+  height: 815px;
+  flex-shrink: 0;
+  margin: 57px 109px;
   text-align: center;
-  margin: 0 auto;
-  background-color: transparent;
-  cursor: progress;
+  border-radius: 87px;
+  background: #F1F0F0;
+  box-shadow: 0px 4px 4px 0px #000;
+  position: relative;
 }
-.maintenance h1{
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
-}  
-.maintenance h1:hover {
-  color: red;
-  font-weight: bolder;
-  transform: scale(1.2)
+#boypic{
+margin-left: 558px;
+margin-top: 150px;
+position: absolute;
+background-color: transparent;
+}
+#boypic img {
+  margin: 124 -37 4074 600;
+  width: 802.157px;
+  height: 539.863px;
+  transform: rotate(22.959deg);
+  flex-shrink: 0;
+  mix-blend-mode: multiply;;
+  position: relative;
+  z-index: 1;
+}
+.boy p {
+  z-index: 2;
+  position: relative;
+  margin: 0;
+}
+.pare {
+  padding: 180px;
+}
+.pare p:first-of-type {
+font-size: xx-large;
+margin-right: 566px;
+padding: 0;
+word-spacing: 15px;
+}
+.pare p:nth-child(2) {
+  margin-top: 29;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Saira Stencil One;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 25px;
+  background: linear-gradient(180deg, #c9baba 0%, #5132a0 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.pare button {
+  margin-top: 150px;
+  width: 314px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #c9baba 0%, #5132a0 100%);
+  
+box-shadow: 12px 10px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pare button :hover {
+  background-color: ;
 }
