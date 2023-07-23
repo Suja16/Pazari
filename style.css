@@ -64,11 +64,11 @@
 }
 
 .top{
-  margin: -7.8px;
+  margin: -15px;
   margin-left: -5;
   border: 1px solid black;
   overflow: auto;
-  width: 1544.227px;
+  width: 1550px;
   height: 6005.775px;
   transform: rotate(-0.186deg);
   flex-shrink: 0;
@@ -85,6 +85,26 @@
     background-color:transparent;
     color: red;
   }
+  /* Hide the scrollbar */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit-based browsers */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add custom styling to make the scrollbar functional */
+body {
+  overflow-y: scroll; /* Show scrollbar only when needed */
+}
+
+/* Add your other CSS styles here */
+
+/* Rest of your CSS code */
+
 .boy{
   width: 1354px;
   height: 815px;
@@ -140,14 +160,116 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.pare button a {
+  font-size: x-large;
+}
 .pare button {
-  margin-top: 150px;
+  margin-top: 30px;
   width: 314px;
   height: 81px;
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(180deg, #c9baba 0%, #5132a0 100%);
-  
 box-shadow: 12px 10px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.fepro{
+  width: 1354px;
+  height: 815px;
+  flex-shrink: 0;
+  margin: 300px 109px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.fepro h1 {
+  margin-bottom: 57px;
+  font-size: 70px;
+  letter-spacing: 20px;
+}
+.catimg img {
+  height: 550px;
+  border-radius: 47px;
+}
+.about {
+  width: 1608px;
+  height: 400px;
+  flex-shrink: 0;
+  background: #303030;
+}
+.about h1 {
+  margin: 45px;
+  color: #FFF;
+  font-family: Koh Santepheap;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9px;
+}
+.about > .aboutus p {
+  margin: 45px;
+  color: #FFF;
+  text-align: left;
+  font-family: Koh Santepheap;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+.news {
+  width: 1608px;
+  height: 400px;
+  flex-shrink: 0;
+  background: #303030;
+}
+.news h1 {
+  margin: 45px;
+  color: #FFF;
+  font-family: Koh Santepheap;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9px;
+  width: fit-content;
+}
+.news1 {
+  width: 679.888px
+}
+.news1 p {
+  margin: 45px;
+  color: #FFF;
+  text-align: left;
+  font-family: Koh Santepheap;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+.news2 input {
+  margin-left: 45px;
+  width: 656px;
+  height: 50px;
+  flex-shrink: 0;
+  background: rgba(217, 217, 217, 0.60);
+}
+.news2 input::placeholder {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.news2 button {
+  width: 443px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-left: 60px;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 5px;
+  background: #303030;
+  color: #FFF;
+}
+
+
 
