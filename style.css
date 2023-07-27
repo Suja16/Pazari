@@ -62,7 +62,6 @@
   background-color: transparent;
   margin: auto;
 }
-
 .top{
   margin: -15px;
   margin-left: -5;
@@ -84,7 +83,7 @@
   }
   .top a:hover{
     background-color:transparent;
-    color: red;
+    font-weight: 500;
   }
   /* Hide the scrollbar */
 body {
