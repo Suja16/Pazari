@@ -1,33 +1,120 @@
+/* body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.signUP {
+    text-align:center;
+    background-color: bisque;
+    padding:20px;
+    border:1px solid black
+ }
+
+h4{
+    text-align:center;
+    margin-bottom:20px;
+}
+.name{
+    margin-top:10px;
+
+}
+
+input[type="text"],
+input[type="tel"]
+input[type="password"]{
+width:100%;
+padding:5px;
+margin-bottom:10px;
+}
+#btn{
+    text-align:center;
+}
+
+button{
+    background-color: azure;
+} */
+#sign{
+    font-weight: bold;
+    font-size:40px;
+    margin: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./image/login\ image.png), black 100% / cover no-repeat;
+}
 
 .container{
-    border: 2px solid black;
-    height: 80vh;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#photo{
+    height: 100vh;
     width: 50vw;
-    margin:15px auto;
+    /* margin: 10px 10px; */
+    border-radius: 10px;
+
+}
+.class{
+    float: right;
+    height: 100vh;
+    width:  50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
-
-
+    /* border: 2px solid grey;
+    border-radius: 10px; */
+    margin: 0;
+    padding: 0;
+   
 }
 input{
-    width: 20%;
-    padding: 10px;
+    
+        width:40%;
+        padding:5px;
+        margin-bottom:20px;
+        border-radius: 15px;
+        height: 3%;
 }
+/* input[type=password]{
+    
+    width:40%;
+    padding:5px;
+    margin-bottom:20px;
+    border-radius: 10px;
+} */
+#log a{
+   
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    width: 40%;
+    
+    
+ }
+
+    .button:hover{
+        font-weight: bold;
+        
+    }
 button{
-    padding: 10px 14px;
-    margin: 10px auto;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    height: 30px;
+    padding: 10px;
+} 
+
+.co{
+    display: block;
+    /* width: 400%; */
 }
-#line{
-    font-size: 30px;
-    margin: 0;
-    padding: 20px;
-    border-bottom: 2px solid black;    
-}
-#un{
-    margin: 0;
-    padding: 20px;
-    border-top: 2px solid black;
+
+.login{
+    width: 43%;
 }
