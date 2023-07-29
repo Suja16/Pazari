@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 .pazari img {
   width: 80px;
   height: auto;
@@ -6,85 +10,87 @@
   float: left;
   background-color: transparent;
 }
-  .search {
-    border-radius: 50px;
-    margin: 18px 0; 
-    width: 50%;
-    height: 40px;
-    float: left;
-    box-sizing: border-box;
-    display: flex; 
-    align-items: center;
-  }
-  
-  .search input[type="search"] {
-    flex-grow: 1;
-    border: none;
-    background-color: white;
-    border-radius:50px ;
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    outline: none;
-  }
-  .photos {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 15px;
-    padding-left: 100px;
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    font-size: large;
-  }
-  
-  .photos a {
-    margin: 10px 20px;
-    text-align: center;
-  }
-  
-  .settings {
-    float: right;
-    background-color: transparent;
-    margin: auto;
-  }
-  
-.top{
-  margin: -15px 0;
-  border: 1px solid black;
-  width: 101.11%;
+.search {
+  border-radius: 50px;
+  margin: 18px 0;
+  width: 50%;
+  height: 40px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="search"] {
+  flex-grow: 1;
+  border: none;
+  background-color: white;
+  border-radius: 50px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+.photos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 15px;
+  padding-left: 100px;
+  width: fit-content;
   height: fit-content;
-  transform: rotate(-0.186deg);
-  flex-shrink: 0;
-  fill: rgba(6, 6, 6, 0.12);
+  text-align: center;
+  font-size: large;
+}
+
+.photos a {
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.settings {
+  float: right;
+  background-color: transparent;
+  margin: auto;
+}
+
+.top {
+  margin: -15px 0;
+  padding-top: 15px;
+  border: 1px solid black;
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.5), transparent);
   backdrop-filter: blur(175px);
-  }
-  .top a{
-    background-color: transparent;
-    color: black;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-decoration: none;
-  }
-  .top a:hover{
-    background-color:transparent;
-    font-weight: 500;
-  }
+}
+
+.top a {
+  background-color: transparent;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+.top a:hover {
+  background-color: transparent;
+  font-weight: 500;
+}
 .boy {
   width: 90%;
-  margin: 0 0 80px;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 87px;
-  background: #004E4D;
+  background: #004e4d;
   box-shadow: 0px 4px 4px 0px #000;
   position: relative;
 }
 
 .boy img {
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
 }
 
@@ -93,17 +99,18 @@
   display: flex;
   justify-content: center;
   flex-shrink: 1;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 .pare button {
-  margin: 10px; 
-  width: 200px; 
+  margin: 10px;
+  width: 200px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 15px;
-  background: #D5D5D5;
-  box-shadow: 12px 10px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #004E4D;
+  background: #d5d5d5;
+  box-shadow: 12px 10px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #004e4d;
   font-family: Koh Santepheap;
   font-size: 30px;
   font-style: normal;
@@ -116,22 +123,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0; 
+  margin: 50px 0;
   text-align: center;
 }
 
 .fepro h1 {
-  margin-bottom: 20px; 
-  font-size: 50px;
-  letter-spacing: 20px; 
+  margin-bottom: 20px;
+  font-size: 6vw;
+  letter-spacing: 20px;
 }
 
-
 .fepro img {
-  flex: 1; 
-  width: auto; 
-  max-width: 100%; 
-  max-height: 100%; 
+  flex: 1;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 10%;
 }
 
@@ -140,13 +146,13 @@
   height: auto;
   padding: 15px;
   flex-shrink: 1;
-  background: #004E4D;
+  background: #303030;
 }
 .about h1 {
   margin: 3vw;
-  color: #FFF;
+  color: #fff;
   font-family: Koh Santepheap;
-  font-size: 7vw;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -154,10 +160,10 @@
 }
 .about > .aboutus p {
   margin: 3vw;
-  color: #FFF;
+  color: #fff;
   text-align: left;
   font-family: Koh Santepheap;
-  font-size: calc(3vw + 8px);
+  font-size: calc(1vw + 8px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -167,14 +173,14 @@
   width: auto;
   height: auto;
   flex-shrink: 1;
-  background: #303030;
+  background: #004e4d;
   padding: 2vw;
 }
 .news h1 {
   margin: 3vw;
-  color: #FFF;
+  color: #fff;
   font-family: Koh Santepheap;
-  font-size: 7vw;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -186,24 +192,24 @@
 }
 .news1 p {
   margin: 3vw;
-  color: #FFF;
+  color: #fff;
   text-align: left;
   font-family: Koh Santepheap;
-  font-size:calc(3vw + 8px) ;
+  font-size: calc(1vw + 8px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.75vw;
 }
-.news2{
-  display:flex;
+.news2 {
+  display: flex;
   width: 50%;
 }
 .news2 input {
   flex-grow: 1;
   height: 40px;
   flex-shrink: 1;
-  background: rgba(217, 217, 217, 0.60);
+  background: rgba(217, 217, 217, 0.6);
 }
 
 .news2 input::placeholder {
@@ -216,26 +222,27 @@
   margin-left: 3vw;
   height: 45px;
   font-size: larger;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 5px;
   background: #303030;
-  color: #FFF;
+  color: #fff;
 }
 .footer {
-  width: 100%;
+  width: auto;
   height: fit-content;
-  flex-shrink: 0;
   background: #303030;
-  padding:  30px ;
+  padding: 30px;
   color: chocolate;
-  display: inline-flex;
-  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .footer > .explore a {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  color: #FFF;
+  color: #fff;
   font-size: large;
   width: fit-content;
 }
@@ -243,13 +250,10 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  color: #FFF;
+  color: #fff;
   font-size: large;
   width: fit-content;
 }
 .footer > .help a {
-  color: #FFF;
+  color: #fff;
 }
-
-
-
