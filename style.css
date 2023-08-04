@@ -200,10 +200,7 @@ body {
   line-height: normal;
   letter-spacing: 0.75vw;
 }
-.news2 {
-  display: flex;
-  width: 50%;
-}
+
 .news2 input {
   flex-grow: 1;
   height: 40px;
