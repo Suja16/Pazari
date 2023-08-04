@@ -256,3 +256,6 @@ body {
 .footer > .help a {
   color: #fff;
 }
+.carousel-inner{
+  width: 80vw !important;
+}
