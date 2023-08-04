@@ -34,7 +34,7 @@ body {
 .photos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 15px;
   width: fit-content;
   height: fit-content;
@@ -44,12 +44,11 @@ body {
 
 .photos a {
   margin: 10px 20px;
-  text-align: center;
 }
 
 .settings {
   background-color: transparent;
-  margin: auto;
+  display: flex;
 }
 
 .top {
@@ -141,9 +140,6 @@ body {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-
-
-
 .about {
   width: auto;
   height: auto;
